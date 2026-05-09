@@ -7,8 +7,17 @@ This work investigates the use of non-neural network-based machine learning algo
 These .ipynb files provide an algorithm for OLS, LASSO, Random Forest Regressor, XGBoost Regressor, and Gaussian Process Regression for the collagen and alginate 3D print dataset. They are used to develop a predictive linear and nonlinear regression model with selected variables (x or h variables) and produce evaluation metrics with parity plots or uncertainty envelope plots (if applicable).
 
 ## Dataset
+All files require a .xlsx raw dataset that contains x variables or h variables and associated line (Y1) and corner (Y3) print scores. The datasets containing the print scores of collagen and alginate FRESH prints were obtained from the authors of Hierarchical Machine Learning for High-Fidelity 3D Printed Biopolymers (https://pubs.acs.org/doi/10.1021/acsbiomaterials.0c00755?goto=supporting-info).
 
-## Getting Started
+## Included Files: Required .xlsx Files
+- xvar_regression.ipynb: Col_CornerScore_rawdata.xlsx, Col_LineScore_rawdata.xlsx 
+- xvar_ensemble.ipynb: Collagen_rawdata.xlsx
+- hvar_collagen_regression.ipynb: Collagen_middlelayers.xlsx
+- hvar_alginate_regression.ipynb: Alginate_middlelayers.xlsx
+- hvar_collagen_ensemble.ipynb: Collagen_middlelayers.xlsx
+- hvar_alginate_ensemble.ipynb: Alginate_middlelayers.xlsx
+- hvar_GPR_RBF.ipynb: Collagen_middlelayers.xlsx
+- hvar_GPR_Matern.ipynb: Collagen_middlelayers.xlsx
 
 ### Dependencies
 
