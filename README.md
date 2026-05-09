@@ -1,30 +1,64 @@
-# HospitalAccessibility-2SFCA_Sorang-I
+# Predictive Modeling of FRESH 3D Bioprinting Process Parameters with Non-Neural Network-Based Algorithms
 
-Hospital Accessibility 2SFCA 
-Developed By Developer Hyun Jae Jeong
-Licensed By Korea University - Konkuk University Medical Imaging Academy 'Sorang_I'
+This work investigates the use of non-neural network-based machine learning algorithms to predict optimal process parameters for Freeform Reversible Embedding of Suspended Hydrogels (FRESH) 3D bioprinting. These .ipynb files provide 
 
-This made for Kyoung-Buk Data Scienst Contest.
-This Model can be derived Hospital Accessibility which you needed to measure.
+## Description
 
-Original Paper : Environment and Planning B : Planning and Design (Impact Factor 3.517), Luo & Wang 2003,
-Measures of spatial accessibility to health care in a GIS environment: synthesis and a case study in the Chicago region.
+These .ipynb files provide an algorithm for OLS, LASSO, Random Forest Regressor, XGBoost Regressor, and Gaussian Process Regression for the collagen and alginate 3D print dataset. They are used to develop a predictive linear and nonlinear regression model with selected variables (x or h variables) and produce evaluation metrics with parity plots or uncertainty envelope plots (if applicable).
 
 ## Dataset
-This repo hosts South Korea administrative division geodata in open formats that can be used to build static and interactive maps (e.g. with D3), and was inspired by swiss-maps.
 
-To see maps for Seoul, go to https://github.com/southkorea/seoul-maps
+## Getting Started
 
-he following formats are available: shp, kml/kmz, svg, GeoJSON, TopoJSON, and RData.
+### Dependencies
 
-## Dataset Type
-JSON, SHP file for region axis data
-Libraries - Geopandas, Matplotlib, Scipy, Aceso
+-  Describe any prerequisites, libraries, OS version, etc., needed before installing program.
+-  ex. Windows 10
 
-## Preprocessing
-Should Unify GPS axis data (ex. WGS 80, WGS 84)
-Delete Useless column 
+### Installing
 
-# Example - Municipalities, Kyoung Buk, South Korea
-<img src="https://user-images.githubusercontent.com/60058713/130456231-a96fa83a-aeb4-4040-8e23-6f6c9d0eb2e5.png" width="800" height="500"/>
-<img src="https://user-images.githubusercontent.com/60058713/130456597-9174eaff-a9be-419c-aab5-f1bbf8acaba5.png" width="800" height="500"/>
+- How/where to download your program
+- Any modifications needed to be made to files/folders
+
+### Executing program
+
+- How to run the program
+- Step-by-step bullets
+```
+code blocks for commands
+```
+
+## Help
+
+Any advise for common problems or issues.
+```
+command to run if program contains helper info
+```
+
+## Authors
+
+Contributors names and contact info
+
+ex. Dominique Pizzie  
+ex. [@DomPizzie](https://twitter.com/dompizzie)
+
+## Version History
+
+-  0.2
+    - Various bug fixes and optimizations
+    - See [commit change]() or See [release history]()
+- 0.1
+    - Initial Release
+
+## License
+
+This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
+
+## Acknowledgments
+
+Inspiration, code snippets, etc.
+* [awesome-readme](https://github.com/matiassingers/awesome-readme)
+* [PurpleBooth](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
+* [dbader](https://github.com/dbader/readme-template)
+* [zenorocha](https://gist.github.com/zenorocha/4526327)
+* [fvcproductions](https://gist.github.com/fvcproductions/1bfc2d4aecb01a834b46)
