@@ -21,62 +21,15 @@ All files require a .xlsx raw dataset that contains x variables or h variables a
 - hvar_GPR_Matern.ipynb: Collagen_middlelayers.xlsx
 
 ## How to Use
-The provided .zip file contains separate .ipynb files for regression, tree-based methods, and GPR. The file name should indicate the input variable types (x or h), types of ML model (regression vs. ensemble, GPR), material type (collagen or alginate), and kernel type (RBF vs. Matern), if applicable. The same file should have all the required Excel files as well. Run the code either in a Jupyter notebook or VS Code. All files are optimized for Python Version 3.13.9. Select the appropriate Python Environment and click Run All. They should train the model based on the Excel file that was imported and produce model evaluation metrics.
+The provided .zip file contains separate .ipynb files for regression, tree-based methods, and GPR. The file name should indicate the input variable types (x or h), types of ML model (regression vs. ensemble, GPR), material type (collagen or alginate), and kernel type (RBF vs. Matern), if applicable. The same file should have all the required Excel files as well. Run the code either in a Jupyter notebook or VS Code. All files are optimized for Python Version 3.13.9. Select the appropriate Python Environment and click Run All. They should train the model based on the Excel file that was imported (see below) and produce model evaluation metrics.
 
 ```
-file_path = 'FileName.xlsx'
-```
-
-
-### Dependencies
-
--  Describe any prerequisites, libraries, OS version, etc., needed before installing program.
--  ex. Windows 10
-
-### Installing
-
-- How/where to download your program
-- Any modifications needed to be made to files/folders
-
-### Executing program
-
-- How to run the program
-- Step-by-step bullets
-```
-code blocks for commands
-```
-
-## Help
-
-Any advise for common problems or issues.
-```
-command to run if program contains helper info
+file_path = 'ExcelFileName.xlsx'
 ```
 
 ## Authors
-
-Contributors names and contact info
-
-ex. Dominique Pizzie  
-ex. [@DomPizzie](https://twitter.com/dompizzie)
-
-## Version History
-
--  0.2
-    - Various bug fixes and optimizations
-    - See [commit change]() or See [release history]()
-- 0.1
-    - Initial Release
-
-## License
-
-This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
+- Noah Dreifus <ndreifus@andrew.cmu.edu>
+- Yeonju Kim <yeonjuk2@andrew.cmu.edu>
 
 ## Acknowledgments
-
-Inspiration, code snippets, etc.
-* [awesome-readme](https://github.com/matiassingers/awesome-readme)
-* [PurpleBooth](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
-* [dbader](https://github.com/dbader/readme-template)
-* [zenorocha](https://gist.github.com/zenorocha/4526327)
-* [fvcproductions](https://gist.github.com/fvcproductions/1bfc2d4aecb01a834b46)
+* https://pubs.acs.org/doi/10.1021/acsbiomaterials.0c00755?goto=supporting-info 
